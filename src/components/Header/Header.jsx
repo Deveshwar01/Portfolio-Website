@@ -64,8 +64,13 @@ export const Header = () => {
                 </a>
               </li>
               <li>
+                <a className=" text-smallTextColor font-[700]" href="#skills">
+                  Skills
+                </a>
+              </li>
+              <li>
                 <a className=" text-smallTextColor font-[700]"href="#portfolio">
-                  Portfolio
+                  Projects
                 </a>
               </li>
             </ul>

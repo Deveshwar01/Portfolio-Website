@@ -32,9 +32,9 @@ export const Modal = ({ activeID, setShowModal }) => {
               </span>
             ))}
           </div>
-          <a href="#">
+          <a href={portfolio.siteUrl} target="_blank">
             <button className=" bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300">
-              live site{" "}
+              live site{""}
             </button>
           </a>
         </div>

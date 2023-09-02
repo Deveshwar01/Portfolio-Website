@@ -8,23 +8,8 @@ export const Footer = () => {
 
       <div className="container">
         <div className="sm:flex items-center justify-between md:gap-8">
+    
           <div className="w-full sm:w-1/2">
-            <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
-              Do you want to make beautiful products ?
-            </h2>
-            <a href="#contact">
-              <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] ">
-                {" "}
-                <i class="ri-mail-line"></i> Hire me
-              </button>
-            </a>
-          </div>
-          <div className="w-full sm:w-1/2">
-            <p className=" text-gray-300 leading-7 mt-4 sm:mt-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              quisquam dolore veritatis hic nemo alias quasi ducimus soluta,
-              repellat consequatur.
-            </p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
               <span className="text-gray-300 font-[600] text-[15px]">
                 Follow me:
@@ -59,22 +44,18 @@ export const Footer = () => {
             <li>
               {" "}
               <a className=" text-gray-400 font-[700]" href="#services">
-                Services
+                Skills
               </a>
             </li>
             <li>
               {" "}
               <a className=" text-gray-400 font-[700]" href="#portfolio">
                 {" "}
-                Portfolio
+                Project
               </a>
             </li>
             <li>
               {" "}
-              <a className=" text-gray-400 font-[700]" href="#contact">
-                {" "}
-                contact
-              </a>
             </li>
           </ul>
         </div>
